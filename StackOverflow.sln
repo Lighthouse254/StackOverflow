@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.26228.4
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackOverflow", "StackOverflow\StackOverflow.csproj", "{DFE4C2C9-4FF0-408F-9C82-D6A84FA2541F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackOverflow.Data", "StackOverflow.Data\StackOverflow.Data.csproj", "{3F00271F-6B79-4C1F-9E0E-C419B5E20A9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackOverflow.Business", "StackOverflow.Business\StackOverflow.Business.csproj", "{9B8F7E75-2F7C-4227-9339-61EA2C2776C6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{DFE4C2C9-4FF0-408F-9C82-D6A84FA2541F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DFE4C2C9-4FF0-408F-9C82-D6A84FA2541F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DFE4C2C9-4FF0-408F-9C82-D6A84FA2541F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F00271F-6B79-4C1F-9E0E-C419B5E20A9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F00271F-6B79-4C1F-9E0E-C419B5E20A9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F00271F-6B79-4C1F-9E0E-C419B5E20A9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F00271F-6B79-4C1F-9E0E-C419B5E20A9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B8F7E75-2F7C-4227-9339-61EA2C2776C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B8F7E75-2F7C-4227-9339-61EA2C2776C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B8F7E75-2F7C-4227-9339-61EA2C2776C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B8F7E75-2F7C-4227-9339-61EA2C2776C6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
