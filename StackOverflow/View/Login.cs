@@ -50,8 +50,9 @@ namespace StackOverflow.View
             }
             else
             {
-                MessageBox.Show("Access!");
-                lbIncorrect.Text = "";
+                fmHomePage hp = new fmHomePage();
+                hp.Show();
+                this.Hide();
             }
         }
 
